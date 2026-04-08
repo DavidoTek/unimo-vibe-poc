@@ -1,21 +1,12 @@
-# React + TypeScript + Vite + shadcn/ui
+# unimo - Universal Mobility Navigator
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+***NOTE: This is my personal experiment what VIBE CODING can do. This is not a real app! At least not now ;)***
 
-## Adding components
+*unimo* is a mobile and desktop app for universal mobility.
+It combines all your mobility apps, allows searching for public transport routes and renting e-scooters, bicycles, and cars.
 
-To add components to your app, run the following command:
+Tech Stack: Vite, React, TypeScript, zustand, shadcn/ui.
 
-```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+Uses the following APIs:
+- MapLibre
+- https://nominatim.openstreetmap.org/
